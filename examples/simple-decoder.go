@@ -43,8 +43,8 @@ import (
 	"github.com/klauspost/reedsolomon"
 )
 
-var dataShards = flag.Int("data", 4, "Number of shards to split the data into")
-var parShards = flag.Int("par", 2, "Number of parity shards")
+var dataShards = flag.Int("data", 8, "Number of shards to split the data into")
+var parShards = flag.Int("par", 4, "Number of parity shards")
 var outFile = flag.String("out", "", "Alternative output path/file")
 
 func init() {
