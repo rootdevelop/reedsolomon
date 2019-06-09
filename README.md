@@ -1,3 +1,7 @@
+# Modifications for own projects:
+
+Examples simple-encoder.go and simple-decoder.go now use 12 shards (8 data, 4 parity), compiled versions are also added for macOS.
+
 # Reed-Solomon
 [![GoDoc][1]][2] [![Build Status][3]][4]
 
